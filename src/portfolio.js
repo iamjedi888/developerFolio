@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "OxENV",
+  title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack, XR, 4k Developer 🚀 Certified experience building Web3, Mobile, and Interdimensional applications with JavaScript / Reactjs / Nodejs / Unreal / Cocos2DX and many other libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "httivegleharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/iamjedi888",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gmail: "iamjedi888@gmail.com",
+  gitlab: "https://gitlab.com/iamjedi888",
+  facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/@oxenv",
+  stackoverflow: "https://stackoverflow.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Services, Skills, and Attributes:",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Zenva Academy",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Certification in Computer Developments",
+      duration: "September 2021 - April 2022",
+      desc: "Completed Enviorments and Development Programs.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "VR Websites",
+        "Unity RPG"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Everest University - Tampa Bay, FL",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Associates of Programming in Computer Science",
+      duration: "September 2010 - April 2012",
+      desc: "Certificate on The Dean's List (3.95+GPA). Took courses about Software Engineering, Web Security, Operating Systems, Interpersonal Communication Skills.",
+      descBullets: ["Certified Buisness Management, Electronic Designs and Manufacturing I."]
     }
   ]
 };
@@ -174,29 +174,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Enterprise Developer",
+      company: "Epic Games",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Feb 2018 – Present",
+      desc: "Operate a developing studio developing assets for multi platform apps and gaming content, advertisment management for major brands.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Esports Assignmemt, Asset distribution handling, Artist relations, Code operations, management",
+        "Advertisment, interactive, asset peopagation, developments."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Developing Studio Operator",
+      company: "Nintendo",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2018 – Present",
+      desc: "Operational Specialist for Developers games onto Nintendo Platforms, Advanced Marketing and Asset deployments."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Architechual Developer",
+      company: "GTECH",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2015 – Sep 2017",
+      desc: "Develop, Structure, Pathflow, interchanger, readme structure for randomised guided program. Single concept Contract completion."
     }
   ]
 };
@@ -217,12 +217,12 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      projectName: "Adaption Ipsum",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://oxenv.myshopify.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -234,7 +234,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://oxenv.myshopify.com/"
         }
       ]
     }
@@ -363,8 +363,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1",
+  email_address: "iamjedi888@gmail.com"
 };
 
 // Twitter Section
